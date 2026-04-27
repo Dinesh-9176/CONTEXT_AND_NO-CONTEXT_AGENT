@@ -1,0 +1,12 @@
+[project]
+name = "no-context-agent"
+version = "0.1.0"
+description = "Baseline agent WITHOUT context engineering — for latency/performance comparison"
+requires-python = ">=3.14"
+dependencies = [
+    "google-adk",
+    "litellm",
+    "langfuse",
+    "openinference-instrumentation-google-adk",
+    "python-dotenv",
+]

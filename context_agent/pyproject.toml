@@ -1,0 +1,12 @@
+[project]
+name = "context-agent"
+version = "0.1.0"
+description = "Context-engineered AI agent — long-term memory, compaction, KV caching, Langfuse tracing"
+requires-python = ">=3.14"
+dependencies = [
+    "google-adk",
+    "litellm",
+    "langfuse",
+    "openinference-instrumentation-google-adk",
+    "python-dotenv",
+]
